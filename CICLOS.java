@@ -11,7 +11,7 @@ import java.util.Scanner;
 	  int resultado = 0;
         
         for (int i = 0; i < Sec_num; i++) {
-            resultado * Pri_num;
+            resultado += Pri_num;
         }
         System.out.println("El resultado de " + Pri_num + " multiplicado por " + Sec_num+ " es: " + resultado);
     }
