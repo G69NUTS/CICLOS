@@ -31,3 +31,28 @@ import java.util.Scanner;
 	
 	}
 }			
+import java.util.Scanner;
+
+class WHILE{
+	public static void main(String[] arg){
+	
+	Scanner leer = new Scanner(System.in);
+	System.out.println("Dijite un numero entero");
+	int num = leer.nextInt();
+	int div = 10;
+	int res;
+	int sol;
+	int i = 10;
+	int rex;
+	if(num<0){
+		System.out.println("Un numero entero es positivo ANIMAL xoxo");
+	}
+	if(num>=10){
+		while(num>0){
+		sol = num /= div;
+		res = num %= div;
+		rex = i *= div;
+		System.out.println(res);
+	}
+}
+	
